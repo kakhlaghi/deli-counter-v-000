@@ -15,6 +15,7 @@ end
 def take_a_number(katz_deli, name)
   place = []
   katz_deli << name
+<<<<<<< HEAD
   spot = katz_deli.index(name)+1
   puts "Welcome, #{name}. You are number #{spot} in line."
 end
@@ -26,5 +27,13 @@ def now_serving(katz_deli)
     puts "Currently serving " + katz_deli[0] + "."
     katz_deli.shift
   end
+=======
+  
+  puts "Welcome, #{name}. You are number " + katz_deli.index(name) + " in line."
+end
+
+def now_serving
+  
+>>>>>>> dad6c080185987c9676d738cfd44340b637e50ce
 end  
   
